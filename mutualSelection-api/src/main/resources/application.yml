@@ -1,0 +1,23 @@
+server:
+  port: 9990
+
+spring:
+  application:
+    name: course_mutualselection
+  datasource:
+    url: jdbc:mysql://192.168.19.134:3306/course_mutualselection?useUnicode=true&characterEncoding=UTF-8&serverTimeZone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis-plus:
+  # Mapper
+  mapper-locations:
+    classpath*:/mapper/**Mapper.xml
+  # 打印日志
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    # 数据库表前缀
+    db-config:
+      table-prefix: ms_
