@@ -9,6 +9,9 @@ package edu.gdut.imis.courseMutualSelection.enums;
 public enum ErrorStatus {
 
     SYSTEM_ERROR(-9999, "系统异常"),
+    PARAMS_ERROR(10001, "参数有误"),
+    ACCOUNT_PWD_NOT_EXIST(10002, "用户名或密码不存在"),
+    TOKEN_ERROR(10003, "TOKEN不合法"),
     ;
     private int code;
     private String msg;
