@@ -36,7 +36,10 @@ public class WebMVCConfig implements WebMvcConfigurer {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         // 先拦截test，以后有需要再改成需要拦截的接口
-        registry.addInterceptor(loginInterceptor).addPathPatterns("/test")
+        registry.addInterceptor(loginInterceptor)
+                .addPathPatterns("/user/**")
+                .addPathPatterns("/usertopic/**")
+                .addPathPatterns("/class")
                 .excludePathPatterns("/login")
                 .excludePathPatterns("/swagger-resources");
     }

@@ -11,6 +11,7 @@
     <version>1.0.0</version>
     <modules>
         <module>mutualSelection-api</module>
+        <module>mutualSelection-admin</module>
     </modules>
 
     <!--属性-->
@@ -27,6 +28,7 @@
         <version>2.5.0</version>
         <relativePath/>
     </parent>
+
 
     <dependencyManagement>
 

@@ -3,13 +3,13 @@
 
 ## 后端技术
 
-| 技术       |             |
-| ---------- | ----------- |
-| 核心框架   | Spring Boot |
-| 安全框架   | 待定        |
-| Token 认证 | JWT         |
-| 持久层框架 | MyBatisPlus |
-| Java版本   | JDK8        |
+| 技术       |                 |
+| ---------- | --------------- |
+| 核心框架   | Spring Boot     |
+| 安全框架   | Spring security |
+| Token 认证 | JWT             |
+| 持久层框架 | MyBatisPlus     |
+| Java版本   | JDK8            |
 
 ## 需求分析
 

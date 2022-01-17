@@ -13,6 +13,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
@@ -22,6 +23,7 @@ import java.util.concurrent.TimeUnit;
  * @date 2021/11/22 23:48
  */
 @Service
+@Transactional
 public class LoginServiceImpl implements LoginService {
     private static final String slat = "miemiehoho!@#";// 加密盐
     @Autowired
@@ -71,4 +73,11 @@ public class LoginServiceImpl implements LoginService {
         User user = JSON.parseObject(userJosn, User.class);
         return user;
     }
+
+    @Override
+    public Result logout(String token) {
+        redisTemplate.delete("TOKEN_" + token);
+        return Result.success(null);
+    }
+
 }

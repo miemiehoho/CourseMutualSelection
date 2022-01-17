@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import edu.gdut.imis.courseMutualSelection.dao.pojo.User;
 import edu.gdut.imis.courseMutualSelection.enums.ErrorStatus;
 import edu.gdut.imis.courseMutualSelection.service.LoginService;
+import edu.gdut.imis.courseMutualSelection.utils.UserThreadLocal;
 import edu.gdut.imis.courseMutualSelection.vo.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -60,6 +61,22 @@ public class LoginInterceptor implements HandlerInterceptor {
             response.getWriter().print(JSON.toJSONString(result));
             return false;
         }
+        UserThreadLocal.put(user);
         return true;
+    }
+
+    /**
+     * 方法执行完毕的处理
+     *
+     * @param request
+     * @param response
+     * @param handler
+     * @param ex
+     * @throws Exception
+     */
+    @Override
+    public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
+        // 如果不删除ThreadLocal中用完的信息，会有内存泄漏的风险
+        UserThreadLocal.remove();
     }
 }

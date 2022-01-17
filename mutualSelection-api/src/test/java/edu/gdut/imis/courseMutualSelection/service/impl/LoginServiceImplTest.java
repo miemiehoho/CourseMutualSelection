@@ -15,6 +15,7 @@ class LoginServiceImplTest {
         String slat = "miemiehoho!@#";// 加密盐
         String password = "root";
         password = DigestUtils.md5Hex(password + slat);
-        System.out.println(password);
+        System.out.println("密码："+password);
+        System.out.println(Character.valueOf((char) 101));
     }
 }

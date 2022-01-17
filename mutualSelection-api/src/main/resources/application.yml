@@ -5,13 +5,14 @@ spring:
   application:
     name: course_mutualselection
   datasource:
-    url: jdbc:mysql://192.168.19.134:3306/course_mutualselection?useUnicode=true&characterEncoding=UTF-8&serverTimeZone=UTC
+    url: jdbc:mysql://119.23.60.218:9491/course_mutualselection?useUnicode=true&characterEncoding=UTF-8&serverTimeZone=UTC
     username: root
-    password: root
+    password: 1nbssuf20tdni5p5ik
     driver-class-name: com.mysql.cj.jdbc.Driver
   redis:
-    host: 192.168.19.134
-    port: 6379
+    host: 119.23.60.218
+    port: 9833
+    password: rflhgg51j0ios1ms3b
 
 mybatis-plus:
   # Mapper

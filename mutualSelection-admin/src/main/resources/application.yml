@@ -1,0 +1,27 @@
+server:
+  port: 9991
+
+spring:
+  application:
+    name: course_mutualselection_admin
+  datasource:
+    url: jdbc:mysql://119.23.60.218:9491/course_mutualselection?useUnicode=true&characterEncoding=UTF-8&serverTimeZone=UTC
+    username: root
+    password: 1nbssuf20tdni5p5ik
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 119.23.60.218
+    port: 9833
+    password: rflhgg51j0ios1ms3b
+
+mybatis-plus:
+  # Mapper
+  mapper-locations:
+    classpath*:/mapper/**Mapper.xml
+  # 打印日志
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    # 数据库表前缀
+    db-config:
+      table-prefix: ms_

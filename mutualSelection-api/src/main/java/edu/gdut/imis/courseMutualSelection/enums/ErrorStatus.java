@@ -13,6 +13,9 @@ public enum ErrorStatus {
     ACCOUNT_PWD_NOT_EXIST(10002, "用户名或密码不存在"),
     TOKEN_ERROR(10003, "TOKEN不合法"),
     NO_LOGIN(10004, "未登录"),
+    UPLOAD_ERROR(20001, "上传文件失败"),
+    SELECT_LIMIT(30001, "达到选题人数限制"),
+    TOPIC_NULL(30002, "选题不存在"),
     ;
     private int code;
     private String msg;

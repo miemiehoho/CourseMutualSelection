@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--MyBatis配置文件-->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="edu.gdut.imis.courseMutualSelection.dao.mapper.UserTopicMapper">
+
+    <resultMap type="edu.gdut.imis.courseMutualSelection.dao.pojo.UserTopic" id="userTopicMap">
+        <result property="id" column="id"/>
+        <result property="userId" column="user_id"/>
+        <result property="topicId" column="topic_id"/>
+        <result property="topicStatus" column="topic_status"/>
+        <result property="taskBook" column="task_book"/>
+        <result property="openingReport" column="opening_report"/>
+        <result property="reportStatus" column="report_status"/>
+        <result property="createUserId" column="create_user_id"/>
+        <result property="createTime" column="create_time"/>
+        <result property="lastUserId" column="last_user_id"/>
+        <result property="lastTime" column="last_time"/>
+        <result property="deleted" column="deleted"/>
+    </resultMap>
+
+
+    <select id="listUserTopic" resultMap="userTopicMap">
+        select * from cms_user_topic
+        <where>
+            1 = 1
+            <if test="teacherId != null">
+                and topic_id in (select id from cms_topic_information where teacher_id = #{teacherId})
+            </if>
+            <if test="topicStatus != null">
+                and topic_status = #{topicStatus}
+            </if>
+        </where>
+        order by topic_status,report_status desc
+    </select>
+</mapper>
