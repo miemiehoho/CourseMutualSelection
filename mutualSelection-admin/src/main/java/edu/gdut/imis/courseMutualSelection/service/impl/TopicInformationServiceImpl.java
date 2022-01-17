@@ -28,6 +28,7 @@ public class TopicInformationServiceImpl implements TopicInformationService {
         TopicInformation topicInformation = new TopicInformation();
         BeanUtils.copyProperties(topicInformationParam, topicInformation);
         topicInformation.setTeacherId(AdminThreadLocal.get().getId());
+        topicInformation.setSelectedNum(0);
         topicInformationMapper.insert(topicInformation);
         return Result.success(null);
     }
