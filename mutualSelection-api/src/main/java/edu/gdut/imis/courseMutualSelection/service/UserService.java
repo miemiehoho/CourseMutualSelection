@@ -18,5 +18,9 @@ public interface UserService {
     Result findUserByToken(String token);
 
     Result updateUser(String token, UserParam userParam);
+
+    User findUserByAccount(String account);
+
+    void save(User newUser);
 }
 

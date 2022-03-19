@@ -42,12 +42,12 @@ public class LoginInterceptor implements HandlerInterceptor {
         }
         String token = request.getHeader("Authorization");
         // 日志，暂时放这里
-        log.info("===========================request start=================================");
+//        log.info("===========================request start=================================");
         String requestURI = request.getRequestURI();
-        log.info("request uri:{}", requestURI);
-        log.info("request method:{}", request.getMethod());
-        log.info("token:{}", token);
-        log.info("===========================request end========================");
+//        log.info("request uri:{}", requestURI);
+//        log.info("request method:{}", request.getMethod());
+//        log.info("token:{}", token);
+//        log.info("===========================request end========================");
         if (StringUtils.isBlank(token)) {
             Result result = Result.fail(ErrorStatus.NO_LOGIN.getCode(), ErrorStatus.NO_LOGIN.getMsg());
             response.setContentType("application/json;charset=utf-8");

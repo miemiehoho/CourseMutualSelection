@@ -20,9 +20,9 @@ public class QiniuUtils {
 
     public static final String url = "http://r5hhpeve0.hn-bkt.clouddn.com/";
 
-    @Value("0HxChVJ4sndy0iHOKa8mIFa_r59lMFOB-pBTvN4b")
+    @Value("0HxChVJ4ssdndy0iHOsadfFa_r59lMas-pBTvN4b")
     private String accessKey;
-    @Value("Nq-T-b8JHZTEgXPrNQITpRmWqLcsRSJlyOQjDnbn")
+    @Value("Nq-T-b8JewTEgXPrsITpRmWqLvcsRSJlyOdfaDnbn")
     private String secretKey;
     @Value("blog-miemiehoho-com")
     private String bucket;

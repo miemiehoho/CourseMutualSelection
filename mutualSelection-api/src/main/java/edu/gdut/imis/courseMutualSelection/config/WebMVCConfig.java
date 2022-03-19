@@ -1,5 +1,6 @@
 package edu.gdut.imis.courseMutualSelection.config;
 
+import edu.gdut.imis.courseMutualSelection.handler.AccessLimitInterceptor;
 import edu.gdut.imis.courseMutualSelection.handler.LoginInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -16,6 +17,8 @@ public class WebMVCConfig implements WebMvcConfigurer {
 
     @Autowired
     private LoginInterceptor loginInterceptor;
+    @Autowired
+    private AccessLimitInterceptor accessLimitInterceptor;
 
     /**
      * 跨域配置
@@ -37,10 +40,13 @@ public class WebMVCConfig implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry registry) {
         // 先拦截test，以后有需要再改成需要拦截的接口
         registry.addInterceptor(loginInterceptor)
+                .addPathPatterns("/usercourse/**")
+                .addPathPatterns("/courseselect/**")
                 .addPathPatterns("/user/**")
                 .addPathPatterns("/usertopic/**")
                 .addPathPatterns("/class")
                 .excludePathPatterns("/login")
                 .excludePathPatterns("/swagger-resources");
+        registry.addInterceptor(accessLimitInterceptor);
     }
 }

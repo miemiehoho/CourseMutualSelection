@@ -6,10 +6,11 @@ import edu.gdut.imis.courseMutualSelection.vo.params.LoginParam;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.io.*;
+import java.util.Random;
+import java.util.UUID;
 
 /**
  * @author miemiehoho
@@ -27,5 +28,27 @@ public class LoginController {
     @PostMapping
     public Result login(@RequestBody LoginParam loginParam) {
         return loginService.login(loginParam);
+    }
+
+    @ApiOperation("测试")
+    @GetMapping
+    public Result register() throws Exception {
+        OutputStream outputStream = new FileOutputStream(new File("d://account.txt"));
+        OutputStreamWriter outputStreamWriter = new OutputStreamWriter(outputStream);
+        BufferedWriter writer = new BufferedWriter(outputStreamWriter);
+        for (int i = 0; i < 5000; i++) {
+            String account = String.valueOf(UUID.randomUUID());
+            String password = String.valueOf(UUID.randomUUID());
+            LoginParam loginParam = new LoginParam();
+            loginParam.setAccount(account);
+            loginParam.setPassword(password);
+            Result result = loginService.register(loginParam);
+            writer.write((String) result.getData());
+            writer.newLine();
+        }
+        writer.close();
+        outputStream.close();
+        outputStreamWriter.close();
+        return Result.success(null);
     }
 }

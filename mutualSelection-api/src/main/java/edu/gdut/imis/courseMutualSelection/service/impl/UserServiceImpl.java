@@ -74,4 +74,17 @@ public class UserServiceImpl implements UserService {
         UserThreadLocal.put(user);
         return Result.success(null);
     }
+
+    @Override
+    public User findUserByAccount(String account) {
+        LambdaQueryWrapper<User> queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.eq(User::getAccount, account);
+        User user = userMapper.selectOne(queryWrapper);
+        return user;
+    }
+
+    @Override
+    public void save(User newUser) {
+        userMapper.insert(newUser);
+    }
 }

@@ -33,6 +33,33 @@ public class LoginServiceImpl implements LoginService {
     private RedisTemplate<String, String> redisTemplate;
 
     @Override
+    public Result register(LoginParam loginParam) {
+        /**
+         * 1.判断参数是否合法
+         * 2.判断账户是否存在，如果存在返回账户已经被注册
+         * 3.如果账号不存在，注册用户
+         * 4.生成token传入redis并返回
+         * 5.注意：加上事务，一旦中间任何过程出现问题，注册的用户需要回滚
+         */
+        String account = loginParam.getAccount();
+        String pwd = loginParam.getPassword();
+        if (StringUtils.isBlank(account) || StringUtils.isBlank(pwd)) {
+            return Result.fail(ErrorStatus.PARAMS_ERROR.getCode(), ErrorStatus.PARAMS_ERROR.getMsg());
+        }
+        User user = userService.findUserByAccount(account);
+        if (user != null) {
+            return Result.fail(ErrorStatus.ACCOUNT_EXIST.getCode(), ErrorStatus.ACCOUNT_EXIST.getMsg());
+        }
+        User newUser = new User();
+        newUser.setAccount(account);
+        newUser.setPassword(DigestUtils.md5Hex(pwd + slat));
+        this.userService.save(newUser);
+        String token = JWTUtils.createToken(newUser.getId());
+        redisTemplate.opsForValue().set("TOKEN_" + token, JSON.toJSONString(newUser), 1, TimeUnit.DAYS);
+        return Result.success(token);
+    }
+
+    @Override
     public Result login(LoginParam loginParam) {
         /**
          * 1.检查参数是否合法
@@ -79,5 +106,6 @@ public class LoginServiceImpl implements LoginService {
         redisTemplate.delete("TOKEN_" + token);
         return Result.success(null);
     }
+
 
 }

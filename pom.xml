@@ -33,6 +33,13 @@
     <dependencyManagement>
 
     </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <!--            将springboot的应用程序打包成fat jar的插件-->

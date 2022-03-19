@@ -52,6 +52,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
+        <!--        AMQP依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
         <!--springboot整合redis-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -118,6 +123,12 @@
             <groupId>com.qiniu</groupId>
             <artifactId>qiniu-java-sdk</artifactId>
             <version>[7.7.0, 7.7.99]</version>
+        </dependency>
+        <!--        验证码-->
+        <dependency>
+            <groupId>com.github.whvcse</groupId>
+            <artifactId>easy-captcha</artifactId>
+            <version>1.6.2</version>
         </dependency>
     </dependencies>
 

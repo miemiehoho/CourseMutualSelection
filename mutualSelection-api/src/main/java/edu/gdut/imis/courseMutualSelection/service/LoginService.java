@@ -10,6 +10,9 @@ import edu.gdut.imis.courseMutualSelection.vo.params.LoginParam;
  */
 public interface LoginService {
 
+
+    public Result register(LoginParam loginParam);
+
     public Result login(LoginParam loginParam);
 
     User checkToken(String token);

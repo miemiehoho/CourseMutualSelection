@@ -1,26 +1,55 @@
 server:
-  port: 9990
+  port: 9991
 
 spring:
   application:
     name: course_mutualselection
   datasource:
-    url: jdbc:mysql://119.23.60.218:9491/course_mutualselection?useUnicode=true&characterEncoding=UTF-8&serverTimeZone=UTC
+    #    url: jdbc:mysql://119.23.60.218:9491/course_mutualselection?useUnicode=true&characterEncoding=UTF-8&serverTimeZone=UTC
+    url: jdbc:mysql://192.168.19.136:3306/course_mutualselection?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimeZone=Asia/Shanghai
     username: root
-    password: 1nbssuf20tdni5p5ik
+    password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
   redis:
-    host: 119.23.60.218
-    port: 9833
-    password: rflhgg51j0ios1ms3b
+    host: 192.168.19.136
+    port: 6379
 
+  rabbitmq:
+    host: 192.168.19.136
+    username: root
+    password: root
+    # 虚拟主机
+    virtual-host: /
+    port: 5672
+    listener:
+      simple:
+        # 消费者最小数量
+        concurrency: 10
+        # 消费者最大数量
+        max-concurrency: 10
+        # 限制消费者每次只能处理一条消息
+        prefetch: 1
+        # 消息被拒绝时是否重新进入队列
+        default-requeue-rejected: true
+        # 启动时默认启动容器
+        auto-startup: true
+    template:
+      retry:
+        # 发布重试，默认false
+        enabled: true
+        # 最大重试次数，默认3
+        max-attempts: 3
+        # 重试最大间隔时间
+        max-interval: 10000ms
+        # 重试的间隔乘数
+        multiplier: 1
 mybatis-plus:
   # Mapper
   mapper-locations:
     classpath*:/mapper/**Mapper.xml
   # 打印日志
-  configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  #  configuration:
+  #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   global-config:
     # 数据库表前缀
     db-config:

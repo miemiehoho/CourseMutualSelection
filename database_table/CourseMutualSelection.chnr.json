@@ -4,7 +4,7 @@
   "avatar": "data:image/png;base64,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",
   "version": "3.5.7",
   "createdTime": "2021-11-20 22:53:39",
-  "updatedTime": "2022-1-17 06:14:20",
+  "updatedTime": "2022-3-16 16:32:09",
   "profile": {
     "default": {
       "db": "319E7E72-2B6E-4625-9584-9602BA2B1A1F",
@@ -25,6 +25,86 @@
           "refDict": "",
           "domain": "",
           "id": "66FFB513-F818-4941-BBC5-C6E596BA0045"
+        },
+        {
+          "defKey": "create_user_id",
+          "defName": "创建人",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "717EDE35-9538-4FB8-96BE-133E68825216"
+        },
+        {
+          "defKey": "create_time",
+          "defName": "创建时间",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "1306FEA5-49C3-4FDA-9F00-361C6DC44D6D"
+        },
+        {
+          "defKey": "last_user_id",
+          "defName": "最后修改人",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "5BF2DD51-6E43-41B4-9551-D578B31D1FAB"
+        },
+        {
+          "defKey": "last_time",
+          "defName": "最后修改时间",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "6CC571FB-BDAA-4569-9956-B8E4BBFBFD1F"
+        },
+        {
+          "defKey": "deleted",
+          "defName": "是否删除",
+          "comment": "",
+          "type": "bit",
+          "len": 1,
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "BB6D8CE1-28FA-4D10-8672-6985053F1610"
         }
       ],
       "entityInitProperties": {}
@@ -1808,6 +1888,986 @@
           "refDict": "",
           "domain": "",
           "id": "AE6CE8A1-BE60-43D0-A238-6277F82222C3"
+        }
+      ],
+      "correlations": [],
+      "indexes": []
+    },
+    {
+      "id": "28D1D6D1-0D5E-41FA-980B-F5FCA4102D00",
+      "defKey": "cms_course_imformation",
+      "defName": "课程表",
+      "comment": "",
+      "properties": {},
+      "nameTemplate": "{defKey}[{defName}]",
+      "headers": [
+        {
+          "freeze": false,
+          "refKey": "hideInGraph",
+          "hideInGraph": true
+        },
+        {
+          "freeze": true,
+          "refKey": "defKey",
+          "hideInGraph": false
+        },
+        {
+          "freeze": true,
+          "refKey": "defName",
+          "hideInGraph": false
+        },
+        {
+          "freeze": false,
+          "refKey": "primaryKey",
+          "hideInGraph": false
+        },
+        {
+          "freeze": false,
+          "refKey": "notNull",
+          "hideInGraph": true
+        },
+        {
+          "freeze": false,
+          "refKey": "autoIncrement",
+          "hideInGraph": true
+        },
+        {
+          "freeze": false,
+          "refKey": "domain",
+          "hideInGraph": true
+        },
+        {
+          "freeze": false,
+          "refKey": "type",
+          "hideInGraph": false
+        },
+        {
+          "freeze": false,
+          "refKey": "len",
+          "hideInGraph": false
+        },
+        {
+          "freeze": false,
+          "refKey": "scale",
+          "hideInGraph": false
+        },
+        {
+          "freeze": false,
+          "refKey": "comment",
+          "hideInGraph": true
+        },
+        {
+          "freeze": false,
+          "refKey": "refDict",
+          "hideInGraph": true
+        },
+        {
+          "freeze": false,
+          "refKey": "defaultValue",
+          "hideInGraph": true
+        },
+        {
+          "freeze": false,
+          "refKey": "isStandard",
+          "hideInGraph": false
+        },
+        {
+          "freeze": false,
+          "refKey": "uiHint",
+          "hideInGraph": true
+        }
+      ],
+      "fields": [
+        {
+          "defKey": "id",
+          "defName": "主键",
+          "comment": "",
+          "type": "bigint",
+          "len": 255,
+          "scale": "",
+          "primaryKey": true,
+          "notNull": true,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "0BBB5A7A-E812-4242-A530-70D223D51EBA"
+        },
+        {
+          "defKey": "classify",
+          "defName": "课程分类",
+          "comment": "",
+          "type": "int",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "4FB39CAA-55B0-4534-92D9-6C97168AABD7"
+        },
+        {
+          "defKey": "name",
+          "defName": "课程名称",
+          "comment": "",
+          "type": "",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "692FF6F7-4A1A-43E6-9D79-78D4AD7490E5",
+          "id": "940F63B9-1F76-41AE-8344-7BC078901E8C"
+        },
+        {
+          "defKey": "description",
+          "defName": "课程简介",
+          "comment": "",
+          "type": "VARCHAR",
+          "len": 1024,
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "89BF678D-9559-4469-B79F-34F2916FA1C5"
+        },
+        {
+          "defKey": "credit",
+          "defName": "课程学分",
+          "comment": "",
+          "type": "int",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "3FEDF1F6-3D2F-4A59-86D5-A2746044065E"
+        },
+        {
+          "defKey": "create_user_id",
+          "defName": "创建人",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "47974B16-EB3A-4654-BA01-7FAC27546DFE"
+        },
+        {
+          "defKey": "create_time",
+          "defName": "创建时间",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "074CFE7E-28C6-40AD-A951-325CF3E5ACEE"
+        },
+        {
+          "defKey": "last_user_id",
+          "defName": "最后修改人",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "E7C78B0B-3F22-454D-A407-A6632797627B"
+        },
+        {
+          "defKey": "last_time",
+          "defName": "最后修改时间",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "68A52780-41F0-42B0-9B84-605D287AD376"
+        },
+        {
+          "defKey": "deleted",
+          "defName": "是否删除",
+          "comment": "",
+          "type": "bit",
+          "len": 1,
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "DE1FC8E4-9CE5-415D-BEB8-0D1755E5355E"
+        }
+      ],
+      "correlations": [],
+      "indexes": []
+    },
+    {
+      "id": "F960ED75-A717-4D7A-8FCC-5E1883CAF9C7",
+      "defKey": "cms_course_select",
+      "defName": "可选课程表",
+      "comment": "",
+      "properties": {},
+      "nameTemplate": "{defKey}[{defName}]",
+      "headers": [
+        {
+          "freeze": false,
+          "refKey": "hideInGraph",
+          "hideInGraph": true
+        },
+        {
+          "freeze": true,
+          "refKey": "defKey",
+          "hideInGraph": false
+        },
+        {
+          "freeze": true,
+          "refKey": "defName",
+          "hideInGraph": false
+        },
+        {
+          "freeze": false,
+          "refKey": "primaryKey",
+          "hideInGraph": false
+        },
+        {
+          "freeze": false,
+          "refKey": "notNull",
+          "hideInGraph": true
+        },
+        {
+          "freeze": false,
+          "refKey": "autoIncrement",
+          "hideInGraph": true
+        },
+        {
+          "freeze": false,
+          "refKey": "domain",
+          "hideInGraph": true
+        },
+        {
+          "freeze": false,
+          "refKey": "type",
+          "hideInGraph": false
+        },
+        {
+          "freeze": false,
+          "refKey": "len",
+          "hideInGraph": false
+        },
+        {
+          "freeze": false,
+          "refKey": "scale",
+          "hideInGraph": false
+        },
+        {
+          "freeze": false,
+          "refKey": "comment",
+          "hideInGraph": true
+        },
+        {
+          "freeze": false,
+          "refKey": "refDict",
+          "hideInGraph": true
+        },
+        {
+          "freeze": false,
+          "refKey": "defaultValue",
+          "hideInGraph": true
+        },
+        {
+          "freeze": false,
+          "refKey": "isStandard",
+          "hideInGraph": false
+        },
+        {
+          "freeze": false,
+          "refKey": "uiHint",
+          "hideInGraph": true
+        }
+      ],
+      "fields": [
+        {
+          "defKey": "id",
+          "defName": "主键",
+          "comment": "",
+          "type": "bigint",
+          "len": 255,
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "9E8B6342-F638-44E0-B6EA-7D388D9A9E88"
+        },
+        {
+          "defKey": "semester_id",
+          "defName": "开课学期id",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "E6A06807-31AF-4500-B4AE-39E234C4AD7C"
+        },
+        {
+          "defKey": "teacher_id",
+          "defName": "授课教师id",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "AC21E370-3C90-4DF1-957E-C21A6905B6AF"
+        },
+        {
+          "defKey": "note",
+          "defName": "备注",
+          "comment": "",
+          "type": "",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "692FF6F7-4A1A-43E6-9D79-78D4AD7490E5",
+          "id": "31469630-935A-4287-87C1-D0943780B135"
+        },
+        {
+          "defKey": "num_limit",
+          "defName": "限选人数",
+          "comment": "",
+          "type": "int",
+          "len": 255,
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "E97FC2B0-9D07-4551-9AFB-35AE03155AB4"
+        },
+        {
+          "defKey": "selected_num",
+          "defName": "可选人数",
+          "comment": "",
+          "type": "int",
+          "len": 255,
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "2D495740-6D43-4DF4-A1E0-9AE2D6414571"
+        },
+        {
+          "defKey": "start_time",
+          "defName": "选课开始时间",
+          "comment": "",
+          "type": "bigint",
+          "len": 255,
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "14724C10-6AC1-40AB-B109-9B93237E4E8A"
+        },
+        {
+          "defKey": "end_time",
+          "defName": "选课结束时间",
+          "comment": "",
+          "type": "bigint",
+          "len": 255,
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "A2188579-EB99-41F9-820B-7DBFCE226E10"
+        },
+        {
+          "defKey": "create_user_id",
+          "defName": "创建人",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "BDCD836C-0BFA-4148-A84B-71D8530FACF2"
+        },
+        {
+          "defKey": "create_time",
+          "defName": "创建时间",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "2885F4BB-BE47-4658-964C-805BD535833C"
+        },
+        {
+          "defKey": "last_user_id",
+          "defName": "最后修改人",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "4116AD46-17B3-4BCB-8714-3EBA9F675146"
+        },
+        {
+          "defKey": "last_time",
+          "defName": "最后修改时间",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "4AE12F3D-0581-48EA-8360-26D82C55B5C5"
+        },
+        {
+          "defKey": "deleted",
+          "defName": "是否删除",
+          "comment": "",
+          "type": "bit",
+          "len": 1,
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "A14FFE18-DEE3-480B-AAD4-3F9A5FE7FEE1"
+        }
+      ],
+      "correlations": [],
+      "indexes": []
+    },
+    {
+      "id": "BDDDFEE8-7B6C-4091-B526-9679FAAB763F",
+      "defKey": "cms_user_course",
+      "defName": "学生选课表",
+      "comment": "",
+      "properties": {},
+      "nameTemplate": "{defKey}[{defName}]",
+      "headers": [
+        {
+          "freeze": false,
+          "refKey": "hideInGraph",
+          "hideInGraph": true
+        },
+        {
+          "freeze": true,
+          "refKey": "defKey",
+          "hideInGraph": false
+        },
+        {
+          "freeze": true,
+          "refKey": "defName",
+          "hideInGraph": false
+        },
+        {
+          "freeze": false,
+          "refKey": "primaryKey",
+          "hideInGraph": false
+        },
+        {
+          "freeze": false,
+          "refKey": "notNull",
+          "hideInGraph": true
+        },
+        {
+          "freeze": false,
+          "refKey": "autoIncrement",
+          "hideInGraph": true
+        },
+        {
+          "freeze": false,
+          "refKey": "domain",
+          "hideInGraph": true
+        },
+        {
+          "freeze": false,
+          "refKey": "type",
+          "hideInGraph": false
+        },
+        {
+          "freeze": false,
+          "refKey": "len",
+          "hideInGraph": false
+        },
+        {
+          "freeze": false,
+          "refKey": "scale",
+          "hideInGraph": false
+        },
+        {
+          "freeze": false,
+          "refKey": "comment",
+          "hideInGraph": true
+        },
+        {
+          "freeze": false,
+          "refKey": "refDict",
+          "hideInGraph": true
+        },
+        {
+          "freeze": false,
+          "refKey": "defaultValue",
+          "hideInGraph": true
+        },
+        {
+          "freeze": false,
+          "refKey": "isStandard",
+          "hideInGraph": false
+        },
+        {
+          "freeze": false,
+          "refKey": "uiHint",
+          "hideInGraph": true
+        }
+      ],
+      "fields": [
+        {
+          "defKey": "id",
+          "defName": "主键",
+          "comment": "",
+          "type": "bigint",
+          "len": 255,
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "5A74A434-2B90-41E8-A724-8907E8317E4C"
+        },
+        {
+          "defKey": "semester_id",
+          "defName": "开课学期id",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "A3BCC1C2-107A-41B9-B6F9-40D9ECD0A460"
+        },
+        {
+          "defKey": "user_id",
+          "defName": "学生id",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "E7C92B0D-31C1-4D81-9625-199AA2362736"
+        },
+        {
+          "defKey": "course_select_id",
+          "defName": "已选选课id",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "476F228F-A055-447D-8B19-CEE35067DE0B"
+        },
+        {
+          "defKey": "create_user_id",
+          "defName": "创建人",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "46F311F8-1F93-4F49-8783-11D74297C6B7"
+        },
+        {
+          "defKey": "create_time",
+          "defName": "创建时间",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "D10B7AD8-C27B-4364-AD77-F44F424C61CB"
+        },
+        {
+          "defKey": "last_user_id",
+          "defName": "最后修改人",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "26EDC40E-37D8-4300-8CC0-E7C4A7C06694"
+        },
+        {
+          "defKey": "last_time",
+          "defName": "最后修改时间",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "D1BAFF99-913A-49F9-B331-96EFF5227095"
+        },
+        {
+          "defKey": "deleted",
+          "defName": "是否删除",
+          "comment": "",
+          "type": "bit",
+          "len": 1,
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "A986D221-FCC2-4CC4-B819-9CCE3C88D130"
+        }
+      ],
+      "correlations": [],
+      "indexes": []
+    },
+    {
+      "id": "AD111249-0533-46B8-86F3-59C1EADEF78B",
+      "defKey": "cms_semester",
+      "defName": "学期表",
+      "comment": "",
+      "properties": {},
+      "nameTemplate": "{defKey}[{defName}]",
+      "headers": [
+        {
+          "freeze": false,
+          "refKey": "hideInGraph",
+          "hideInGraph": true
+        },
+        {
+          "freeze": true,
+          "refKey": "defKey",
+          "hideInGraph": false
+        },
+        {
+          "freeze": true,
+          "refKey": "defName",
+          "hideInGraph": false
+        },
+        {
+          "freeze": false,
+          "refKey": "primaryKey",
+          "hideInGraph": false
+        },
+        {
+          "freeze": false,
+          "refKey": "notNull",
+          "hideInGraph": true
+        },
+        {
+          "freeze": false,
+          "refKey": "autoIncrement",
+          "hideInGraph": true
+        },
+        {
+          "freeze": false,
+          "refKey": "domain",
+          "hideInGraph": true
+        },
+        {
+          "freeze": false,
+          "refKey": "type",
+          "hideInGraph": false
+        },
+        {
+          "freeze": false,
+          "refKey": "len",
+          "hideInGraph": false
+        },
+        {
+          "freeze": false,
+          "refKey": "scale",
+          "hideInGraph": false
+        },
+        {
+          "freeze": false,
+          "refKey": "comment",
+          "hideInGraph": true
+        },
+        {
+          "freeze": false,
+          "refKey": "refDict",
+          "hideInGraph": true
+        },
+        {
+          "freeze": false,
+          "refKey": "defaultValue",
+          "hideInGraph": true
+        },
+        {
+          "freeze": false,
+          "refKey": "isStandard",
+          "hideInGraph": false
+        },
+        {
+          "freeze": false,
+          "refKey": "uiHint",
+          "hideInGraph": true
+        }
+      ],
+      "fields": [
+        {
+          "defKey": "id",
+          "defName": "主键",
+          "comment": "",
+          "type": "bigint",
+          "len": 255,
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "67BA1A10-F80C-47E0-9ABF-59BDB358C257"
+        },
+        {
+          "defKey": "name",
+          "defName": "学期名",
+          "comment": "",
+          "type": "",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "692FF6F7-4A1A-43E6-9D79-78D4AD7490E5",
+          "id": "42E284C0-4A6E-4B28-B577-C163A2722833"
+        },
+        {
+          "defKey": "create_user_id",
+          "defName": "创建人",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "72459939-4F5B-4FE5-B317-0B1AE45475FB"
+        },
+        {
+          "defKey": "create_time",
+          "defName": "创建时间",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "AC9603C2-EB85-4394-A12B-0618B4134154"
+        },
+        {
+          "defKey": "last_user_id",
+          "defName": "最后修改人",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "30F7B84B-BF1C-4D3B-9DEB-63ECEECF25B6"
+        },
+        {
+          "defKey": "last_time",
+          "defName": "最后修改时间",
+          "comment": "",
+          "type": "bigint",
+          "len": "",
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "B7C29777-DDC0-4760-AD85-22BEC8E6D7FF"
+        },
+        {
+          "defKey": "deleted",
+          "defName": "是否删除",
+          "comment": "",
+          "type": "bit",
+          "len": 1,
+          "scale": "",
+          "primaryKey": false,
+          "notNull": false,
+          "autoIncrement": false,
+          "defaultValue": "",
+          "hideInGraph": false,
+          "refDict": "",
+          "domain": "",
+          "id": "04385505-BDA8-4B17-B555-15F08250DDC8"
         }
       ],
       "correlations": [],
