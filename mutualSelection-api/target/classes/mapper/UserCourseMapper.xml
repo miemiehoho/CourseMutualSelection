@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="edu.gdut.imis.courseMutualSelection.dao.mapper.UserCourseMapper">
+
+    <!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="edu.gdut.imis.courseMutualSelection.dao.pojo.UserCourse" id="userCourseMap">
+                    <result property="id" column="id"/>
+                    <result property="semesterId" column="semester_id"/>
+                    <result property="userId" column="user_id"/>
+                    <result property="courseSelectId" column="course_select_id"/>
+                    <result property="createUserId" column="create_user_id"/>
+                    <result property="createTime" column="create_time"/>
+                    <result property="lastUserId" column="last_user_id"/>
+                    <result property="lastTime" column="last_time"/>
+                    <result property="deleted" column="deleted"/>
+            </resultMap>
+
+
+</mapper>
